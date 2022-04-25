@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # download nginx confiration
-sudo curl https://github.com/alem-io/track-devops/blob/master/subjects/docker/docker-bind/nginx.conf -o "$(pwd)"/nginx.conf
+sudo curl https://stepik.org/media/attachments/lesson/691221/nginx.conf  -o "$(pwd)"/nginx.conf
 
 # running nginx container
 sudo docker run -d \
